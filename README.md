@@ -19,4 +19,7 @@ The RRF files are pipe delimited. One problem with them though is that they do n
 TODO:
 - [ ] Add Linux `full_install.sh`
 
+## Credit
+https://github.com/thepanacealab/umls_loading_postgresql
+
 
