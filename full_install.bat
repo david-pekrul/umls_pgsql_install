@@ -4,7 +4,7 @@ SET USERNAME=umls2020ab
 SET SCHEMA=umls2020ab
 
 psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -f "%cd%\drop_tables.sql"
-psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -f "%cd%\only_create_tables.sql"
+psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -f "%cd%\create_tables.sql"
 
 
 psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -c "\COPY MRCOLS FROM '%cd%\META\MRCOLS.RRF' WITH DELIMITER AS '|' NULL AS '';"
