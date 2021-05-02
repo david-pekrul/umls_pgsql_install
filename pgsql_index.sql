@@ -3,6 +3,7 @@
 	Yeb Havinga, MSc
 	yhavinga@gmail.com
 */
+SET max_parallel_maintenance_workers TO 4;
 
 CREATE INDEX X_MRCOC_CUI1 ON MRCOC(CUI1)
 ;
