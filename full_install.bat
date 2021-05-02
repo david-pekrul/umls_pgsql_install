@@ -38,3 +38,4 @@ psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -c "\COPY MERGEDLUI FROM '%c
 
 
 psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -f "%cd%\alter_tables_drop_dummy.sql"
+psql -h %DB_HOST% -p 5432 -U %USERNAME% -d %SCHEMA% -f "%cd%\pgsql_index.sql"
