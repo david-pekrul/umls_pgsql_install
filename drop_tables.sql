@@ -1,0 +1,27 @@
+DROP TABLE if exists MRCOLS;
+DROP TABLE if exists MRCONSO;
+DROP TABLE if exists MRCUI;
+DROP TABLE if exists MRDEF;
+DROP TABLE if exists MRDOC;
+DROP TABLE if exists MRFILES;
+DROP TABLE if exists MRHIER;
+DROP TABLE if exists MRHIST;
+DROP TABLE if exists MRMAP;
+DROP TABLE if exists MRRANK;
+DROP TABLE if exists MRREL;
+DROP TABLE if exists MRSAB;
+DROP TABLE if exists MRSAT;
+DROP TABLE if exists MRSMAP;
+DROP TABLE if exists MRSTY;
+DROP TABLE if exists MRXNS_ENG;
+DROP TABLE if exists MRXNW_ENG;
+DROP TABLE if exists MRXW_ENG;
+DROP TABLE if exists MRXW_LAN; ---'LAN' means the language.---
+DROP TABLE if exists MRAUI;
+DROP TABLE if exists AMBIGSUI;
+DROP TABLE if exists AMBIGLUI;
+DROP TABLE if exists DELETEDCUI;
+DROP TABLE if exists DELETEDLUI;
+DROP TABLE if exists DELETEDSUI;
+DROP TABLE if exists MERGEDCUI;
+DROP TABLE if exists MERGEDLUI;
